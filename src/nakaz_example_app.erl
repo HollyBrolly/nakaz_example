@@ -15,9 +15,7 @@
 %% API
 
 start() ->
-    ok = application:start(syntax_tools),
-    ok = application:start(compiler),
-    ok = application:start(lager),
+    ok = application:start(sasl),
     ok = application:start(nakaz),
     ok = application:start(nakaz_example).
 
