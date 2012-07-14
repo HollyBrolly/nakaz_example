@@ -1,0 +1,13 @@
+{application, nakaz_example,
+ [
+  {description, "Example application for nakaz library"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  nakaz
+                 ]},
+  {mod, { example_app, []}},
+  {env, []}
+ ]}.
