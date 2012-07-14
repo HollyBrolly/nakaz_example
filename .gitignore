@@ -1,0 +1,7 @@
+ebin/
+deps/
+logs/
+.nakaz.plt
+.eunit
+erl_crash.dump
+log/

@@ -8,6 +8,6 @@
                   stdlib,
                   nakaz
                  ]},
-  {mod, { example_app, []}},
+  {mod, { nakaz_example_app, []}},
   {env, []}
  ]}.

@@ -1,4 +1,4 @@
-example:
+nakaz_example:
   srv_conf:
     iface:
       ip: 127.0.0.1
